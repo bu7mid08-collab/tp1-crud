@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; background: #f3f4f6; margin: 0; color: #111827; }
+.container { max-width: 800px; margin: 0 auto; padding: 24px 16px; }
+h1 { text-align: center; }
+.card { background: #fff; border-radius: 10px; padding: 16px 20px; margin-bottom: 20px; box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+.card h2 { margin-top: 0; font-size: 1.1rem; }
+form.card { display: flex; flex-direction: column; gap: 10px; }
+input { padding: 8px 10px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 1rem; }
+button { padding: 7px 14px; border: none; border-radius: 6px; background: #2563eb; color: #fff; cursor: pointer; font-size: .9rem; }
+button:hover { opacity: .9; }
+button.secondary { background: #6b7280; }
+button.danger { background: #dc2626; }
+.row { display: flex; gap: 8px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #e5e7eb; }
+.actions { display: flex; gap: 6px; flex-wrap: wrap; }
+.error { background: #fee2e2; color: #991b1b; padding: 10px; border-radius: 6px; }
+.detail { border-left: 4px solid #2563eb; }
